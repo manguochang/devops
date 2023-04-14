@@ -1,0 +1,15 @@
+Terminal > docker run --name demo bash -c "echo hello"
+
+#Dockerfile
+FROM php:latest
+COPY ./index.php ./
+EXPOSE 80
+CMD ["php", "-S", "0.0.0.0:80"]
+
+#Index.php
+<html>
+  	<?php echo "Hello world from a php container" ?>
+</html>
+
+docker build -t docker/php:1.0 .
+docker run --name=php1 -p=3003:80 docker/php:1.0
