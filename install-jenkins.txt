@@ -2,8 +2,7 @@ Install Ubuntu 20.04
 sudo apt update && sudo apt upgrade -y
 sudo apt install openjdk-17-jdk -y
 java -version
-sudo apt install git -y
-sudo apt install maven -y
+sudo apt install git maven -y
 https://www.jenkins.io/download/
 Download the Generic Java package (.war)
 Move the war file to home folder (optional)
