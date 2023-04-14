@@ -1,0 +1,17 @@
+Dashboard > Manage Jenkins > Manage Plugins > Available plugins
+Search for maven
+Select Maven Integration & Maven Invoker
+Install without restart
+Dashboard > Manage Jenkins > Global Tool Configuration > Maven > Add Maven
+Maven > Name > mvn
+Dashboard > New Item
+Item name: my-first-maven-build
+Choose Maven project
+Generation > Description > First Maven Build
+Source Code Management > Git
+Repository URL: https://github.com/jenkins-docs/simple-java-maven-app.git
+Build > Goals and options > clean install package
+Save and Build Now
+Check Console Output
+cd ~/.jenkins/workspace/my-first-maven-build/target
+java -jar my-app-1.0-SNAPSHOT.jar
