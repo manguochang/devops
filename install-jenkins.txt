@@ -1,0 +1,15 @@
+Install Ubuntu 20.04
+sudo apt update && sudo apt upgrade -y
+sudo apt install openjdk-17-jdk -y
+java -version
+sudo apt install git -y
+sudo apt install maven -y
+https://www.jenkins.io/download/
+Download the Generic Java package (.war)
+Move the war file to home folder (optional)
+Run “java -jar jenkins.war” from Terminal
+http://localhost:8080
+Copy installation password from Terminal
+Paste password in installation webpage to unlock Jenkins
+Select “Install selected plugins”
+Fill in details to create first admin user
