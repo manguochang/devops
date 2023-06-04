@@ -6,7 +6,7 @@ COPY ./index.php ./
 EXPOSE 80
 CMD ["php", "-S", "0.0.0.0:80"]
 
-#Index.php
+#index.php
 <html>
   	<?php echo "Hello world from a php container" ?>
 </html>
