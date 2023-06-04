@@ -1,13 +1,14 @@
-Dashboard > Manage Jenkins > Plugins > Available plugins
+Dashboard > Manage Jenkins > System Configuration > Plugins > Available plugins
 Search for maven
 Select Maven Integration & Maven Invoker
 Install without restart
-Dashboard > Manage Jenkins > Global Tool Configuration > Maven > Add Maven
+Dashboard > Manage Jenkins > System Configuration > Tools > Maven Installation > Add Maven
 Maven > Name > mvn
+Save
 Dashboard > New Item
 Item name: my-first-maven-build
 Choose Maven project
-Generation > Description > First Maven Build
+General > Description > First Maven Build
 Source Code Management > Git
 Repository URL: https://github.com/jenkins-docs/simple-java-maven-app.git
 Build > Goals and options > clean install package
