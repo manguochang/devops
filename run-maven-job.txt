@@ -1,4 +1,4 @@
-Dashboard > Manage Jenkins > Manage Plugins > Available plugins
+Dashboard > Manage Jenkins > Plugins > Available plugins
 Search for maven
 Select Maven Integration & Maven Invoker
 Install without restart
