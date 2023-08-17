@@ -1,7 +1,7 @@
 Dashboard > Start building your software project > Create a job
 Item name: my-first-job
 Choose Freestyle project
-Generation > Description > My first job
+General > Description > My first job
 Build Steps > Execute shell > echo "Welcome to Jenkins Demo!"
 Save and Build Now
 Check Console Output
